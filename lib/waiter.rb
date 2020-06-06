@@ -17,6 +17,7 @@ class Waiter
     Meal.new(self, customer, total, tip)
   end
   
+<<<<<<< HEAD
   def meals 
     Meal.all.select {|meal| meal.waiter == self}
   end
@@ -28,4 +29,6 @@ class Waiter
     best_tipped_meal.customer
   end
   
+=======
+>>>>>>> 7ffc77e9b57b4c5c299681ec373fb1ee1c246314
 end
