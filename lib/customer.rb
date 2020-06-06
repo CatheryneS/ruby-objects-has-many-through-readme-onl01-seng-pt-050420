@@ -21,12 +21,9 @@ class Customer
   end
   
   def waiters
-<<<<<<< HEAD
     meals.map {|meal| meal.waiter}
-=======
     meals.map do |meal| 
       meal.waiter
     end
->>>>>>> 7ffc77e9b57b4c5c299681ec373fb1ee1c246314
   end
 end
